@@ -1,0 +1,126 @@
+h1 {
+  text-align: center;
+  color: rgb(174, 201, 241);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 40;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  text-align: center;
+}
+
+.main-page-article {
+  color: rgb(29, 28, 28);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+
+blockquote {
+  color: gray;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 28px;
+}
+
+figcaption {
+  font-size: 11px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 15, "opsz" 24;
+}
+
+.nav {
+  display: block;
+  background-color: rgb(174, 201, 241);
+  text-align: center;
+  padding: 20px;
+}
+
+.main-title {
+  display: block;
+  background-color: rgb(99, 97, 97);
+  text-align: center;
+  padding: 10px;
+}
+
+.header-content {
+  margin: 0px;
+  padding: 5px;
+}
+
+.material-symbols-outlined {
+  font-size: 60px; /* İkon boyutunu belirleme */
+  transition: transform 0.2s; /* Dönme animasyonu için geçiş süresi */
+  color: #007bff;
+}
+
+.material-symbols-outlined:hover {
+  transform: rotate(
+    360deg
+  ); /* İkona fare üzerine gelince 360 derece dönme animasyonu ekleniyor */
+}
+.icon {
+  font-size: 24px; /* İkon boyutunu belirleme */
+  color: #ffffff; /* İkon rengini beyaz yapma */
+  background-color: #007bff; /* Arka plan rengini mavi yapma */
+  padding: 10px; /* İkon etrafına boşluk bırakma */
+  margin: 5px; /* İkonlar arasında boşluk bırakma */
+  border-radius: 50%; /* Daire şeklinde kenarlık eklemek için */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr; /* İki eşit genişlikte sütun oluşturma */
+  grid-gap: 10px; /* Sütunlar arasına 10px boşluk bırakma */
+}
+
+.grid-box {
+  height: 600px;
+  background-color: rgb(174, 201, 241);
+  color: #ffffff;
+  text-align: center;
+  line-height: 100px;
+  font-size: 16px;
+  border-radius: 15px;
+}
+
+.book-content {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  line-height: 1px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 1.3;
+  text-align: left;
+  margin-left: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: rgb(99, 97, 97);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+}
+
+.about-me-article {
+  margin-left: 333px;
+  margin-right: 300px;
+  font-size: 18px;
+}
+
+.book-img {
+  margin-right: 10px;
+}
