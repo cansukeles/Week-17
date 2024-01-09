@@ -1,0 +1,128 @@
+body,
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.menu {
+  height: 50px;
+  line-height: 50px;
+  width: calc(100% - 600px);
+  background-color: #374666;
+  padding-left: 600px;
+}
+
+li {
+  float: left;
+  margin-right: 50px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  background-color: rgb(255, 179, 0);
+}
+
+.web-site-title {
+  font-family: "Times New Roman", Times, serif;
+  color: #374666;
+  display: inline-block;
+  position: absolute;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  padding-left: 480px;
+}
+
+footer {
+  font-family: "Times New Roman", Times, serif;
+  color: #374666;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  bottom: 0%;
+  overflow: hidden;
+  border: 1px solid #dfe1e5;
+  border-top: 1px solid #dadce0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding-left: 450px;
+  line-height: 10px;
+  background-color: #f2f2f2;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 1024px) {
+  .menu {
+    height: 200px;
+  }
+  li {
+    clear: both;
+  }
+}
+
+/* Games */ 
+
+.btn {
+    padding: 50px, 70px;
+    border-radius: 25px;
+}
+
+
+.content {
+    width: 800px;
+    margin-top: 20px;
+    float: left;
+    margin-left: 23%;
+}
+
+.card {
+    width: 20%;
+    float: left;
+    padding: 5%;
+    margin-right: 3%;
+    background-color: rgb(255, 179, 0);
+    border-radius: 10px;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    margin-right: 10px;
+    float: left;
+}
+
+
+.clear {
+    clear: both;
+}
+
+.header-content {
+    margin: 0px;
+    padding: 5px;
+  }
+
+  .main-page-content {
+    display: inline;
+    color: rgb(29, 28, 28);
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 16px;
+   
+  }
+
+  .main-page-content h1{
+    color:#374666;
+    text-align: center;
+  }
+
+  .main-page-content p{
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+  }
